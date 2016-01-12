@@ -1,2 +1,1 @@
-# android_device_samsung_grandprimeve3gxx
 # android_device_samsung_grandprimeve3g
