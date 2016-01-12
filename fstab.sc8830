@@ -1,0 +1,9 @@
+#<src>                   <mnt_point>    <type>      <mnt_flags and options>    <fs_mgr_flags>
+
+/dev/block/mmcblk0p20         /boot           emmc		defaults                   recoveryonly
+/dev/block/mmcblk0p25         /system         ext4       ro                                                                    wait
+/dev/block/mmcblk0p27         /data           ext4       rw,noatime,nosuid,nodev,barrier=0,journal_checksum,noauto_da_alloc    wait
+/dev/block/mmcblk0p21         /recovery       ext4       defaults                   recoveryonly
+/dev/block/mmcblk0p24         /cache          ext4       rw,noatime,nosuid,nodev,barrier=0,journal_checksum,noauto_da_alloc    wait
+/dev/block/mmcblk1p1         /sd-card        vfat		defaults                   recoveryonly
+/dev/block/mmcblk1       /sd-ext         vfat		defaults                   recoveryonly
